@@ -1,7 +1,7 @@
 name: Installing Python
 on: [push]
 jobs:
-  example_matrix:
+  build:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
